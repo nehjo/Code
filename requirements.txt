@@ -1,0 +1,12 @@
+# Core numerics / plotting
+numpy>=1.22
+scipy>=1.8
+pandas>=1.4
+matplotlib>=3.5
+
+# Sensitivity analysis (Sobol indices); >=1.4 for SALib.sample.sobol
+SALib>=1.4
+
+# Physics-informed neural network (PINNs.py). DeepXDE runs on the PyTorch backend.
+deepxde>=1.9
+torch>=1.12

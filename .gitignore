@@ -1,0 +1,24 @@
+# --- Data (large, separately licensed; not distributed with this repo) ---
+Data/
+# Raw per-rumour CSVs and coverage summaries are generated locally, not committed.
+# (Delete the leading '#' on the next line to also ignore stray CSVs anywhere.)
+# *.csv
+
+# --- Generated intermediate arrays ---
+*.npy
+
+# Result figures (*.png) are NOT ignored, so you can commit the final ones you
+# want to show. Add a rule here if you'd rather keep them out.
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
